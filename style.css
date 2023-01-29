@@ -1,15 +1,16 @@
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 5px;
+    padding: 5px;
+    background-color: papayawhip;
 }
 section #navmain{
     background-color: rgb(223, 146, 30);
     padding: 2px;
 }
 .navbar{
+    margin-bottom: 10px;
     background-color: lightgray;
     display: flex;
-   
     justify-content: center;
 }
 h2{
@@ -93,6 +94,7 @@ a{
 } */
 
  .banner{
+    padding-top: 5px;
     
     color: white;
     text-align: center;
