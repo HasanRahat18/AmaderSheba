@@ -21,9 +21,9 @@ h2{
 .navlist ul{
     display: flex;
     list-style: none;
-    margin-left: 400px;
-    padding: 10px;
-    font-size: 18px;
+    margin-left: 300px;
+    padding: 15px;
+    font-size: 16px;
 
 }
 .navlist ul li{
@@ -33,6 +33,8 @@ h2{
 }
  .navlist ul li a{
     text-transform: uppercase;
+    font-size: 16px;
+
 
 } 
 /* .pro{
@@ -98,23 +100,41 @@ a{
     
     color: white;
     text-align: center;
-    background-image: url(images/banner2.jpg);
+    background-image: url(images/moto.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 70vh;
+    height: 85vh;
      width: 100%;
     padding: 10% 0 0 0;
 }
 
 
 .bt2 {
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    font-weight: inherit;
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
-    color: white;
-    font-weight: 400;
-    padding: 5px 10px;
-    border-radius: 5px;
+    border: 0 none transparent;
+    outline-width: 0;
+    font-style: initial;
+    white-space: nowrap;
+    user-select: none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 8px 20px;
+        
+        
+  }
+  .bt{
+    border-radius: 10px;
+    color: #111111;
+    background-color: #f1c50e;
+    
   }
   
   .bt2:hover {
@@ -122,16 +142,28 @@ a{
     color: white;
   }
   .btrr{
+    text-align: center;
+    padding: 41px;
+    width: 43%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    border: 1px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    background-color: rgba(0,0,0, 0.4);
     display: grid;
     justify-items: center;
   }
-  .btrr p{
+  /* .btrr p{
     margin: 14px 200px 35px 200px;
-    color: coral;
-  }
+    color: white;
+  } */
   .btrr h1{
-    margin: 14px 200px 35px 200px;
-    color: coral;
+    
+    color: white;
   }
   .service{
 
@@ -157,4 +189,8 @@ a{
     padding-right: 10px;
     border-radius: 10px;
     border-left:  7px solid #FA6D5A;
+  }
+  .booking{
+    text-align: center;
+    
   }
