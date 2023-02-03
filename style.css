@@ -69,7 +69,7 @@ section #navmain{
     cursor: pointer;
     /* float: left; */
     /* grid: end; */
-    border-radius: 14px;
+    border-radius: 5px;
     transition: all 0.5s;
     
 }
@@ -99,10 +99,7 @@ section #navmain{
   }
 
 
-/* .button:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-    
-} */
+
 
  .banner{
     padding-top: 5px;
@@ -142,7 +139,7 @@ section #navmain{
   }
   .bt{
     text-transform: uppercase;
-    border-radius: 10px;
+    border-radius: 5px;
     color: #111111;
     background-color: #f1c50e;
     
@@ -338,4 +335,48 @@ section #navmain{
 }
 .card-body2 h2{
   color: #F2C717;
+}
+input[type=text], select, textarea {
+  width: 92%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  border-radius: 5px;
+  background-color:  #f1c50e;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: uppercase;
+  font-weight: inherit;
+  text-decoration: none;
+  border: 0 none transparent;
+  outline-width: 0;
+  font-style: initial;
+  white-space: nowrap;
+  user-select: none;
+  vertical-align: middle;
+  text-align: center;
+  padding: 8px 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #008CBA;
+}
+
+
+.container4 {
+  margin-left: 20px;
+  width: 39%;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
 }
