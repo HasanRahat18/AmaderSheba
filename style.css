@@ -373,10 +373,48 @@ input[type=submit]:hover {
 }
 
 
-.container4 {
-  margin-left: 20px;
-  width: 39%;
-  border-radius: 5px;
-  background-color: white;
-  padding: 20px;
+.row {
+  display: flex;
+ 
 }
+.fa-phone,.fa-envelope,.fa-square-facebook,.fa-location-dot {
+  color: #f1c50e;
+}
+/* .column1{
+  flex: 50%;
+  padding: 10px;
+  height: 500px;
+}
+
+.column2{
+  flex: 50%;
+  padding: 10px;
+  height: 500px;
+}
+.column3{
+  flex: 50%;
+  padding: 10px;
+  height: 500px;
+} */
+
+  .column3{
+    padding-top: 63px;
+    margin-left: 50px;
+    position: relative;
+  }
+  .column2{
+    padding-top: 63px;
+    margin-left: 25px;
+    position: relative;
+  }
+  .column1{
+    padding-top: 30px;
+    margin-left: 107px;
+    position: relative;
+  }
+  /* .email{
+    padding-top: 38px;
+  }
+  .fb{
+    padding-top: 38px;
+  } */
